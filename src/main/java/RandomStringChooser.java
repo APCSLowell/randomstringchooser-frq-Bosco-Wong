@@ -2,7 +2,7 @@ import java.util.*;
 public class RandomStringChooser
 {
  private ArrayList <String> w;
-public RandomString Chooser(String[] b){
+public RandomStringChooser(String[] b){
   w = new ArrayList <String>();
   for(int x = 0; x < b.length; x++)
     w.add(b[x]);
