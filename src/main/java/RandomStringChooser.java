@@ -11,7 +11,7 @@ public RandomStringChooser(String[] b){
   public String getNext(int a, int[]b){
   if(w.size() > 0){
     String temp = "";
-    int random = (int)(Math.random*w.size());
+    int random = (int)(Math.random()*w.size());
     temp = w.get(random);
     w.remove(random);
     return temp;
