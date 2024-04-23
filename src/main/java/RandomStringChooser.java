@@ -1,7 +1,7 @@
 import java.util.*;
 public class RandomStringChooser
 {
- private ArrayList <String> = w;
+ private ArrayList <String> w;
 public RandomString Chooser(String[] b){
   w = new ArrayList <String>();
   for(int x = 0; x < b.length; x++)
@@ -17,7 +17,7 @@ public RandomString Chooser(String[] b){
     return temp;
   }
     
-   return "NONE"
+   return "NONE";
     
       
   }
