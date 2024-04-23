@@ -8,8 +8,8 @@ public RandomStringChooser(String[] b){
     w.add(b[x]);
     
 }
-  public void getNext(int a, int[]b){
-  if(words.length > 0){
+  public String getNext(int a, int[]b){
+  if(w.size() > 0){
     String temp = "";
     int random = (int)(Math.random*w.size());
     temp = w.get(random);
