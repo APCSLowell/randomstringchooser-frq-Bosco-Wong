@@ -8,7 +8,7 @@ public RandomStringChooser(String[] b){
     w.add(b[x]);
     
 }
-  public String getNext(int a, int[]b){
+  public String getNext(){
   if(w.size() > 0){
     String temp = "";
     int random = (int)(Math.random()*w.size());
